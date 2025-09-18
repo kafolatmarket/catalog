@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Каталог товаров</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Каталог товаров</h1>
+    <input type="text" id="search" placeholder="Поиск по названию или описанию...">
+    <button id="showFavorites">❤️ Избранное</button>
+  </header>
+
+  <main>
+    <div id="filters">
+      <button data-category="all" class="active">Все</button>
+      <button data-category="ПЭТ тара">ПЭТ тара</button>
+      <button data-category="Флаконы">Флаконы</button>
+      <button data-category="Аксессуары">Аксессуары</button>
+    </div>
+    <div id="catalog" class="grid"></div>
+  </main>
+
+  <!-- Модальное окно -->
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <span id="closeModal">&times;</span>
+      <img id="modalImg" src="" alt="">
+      <h2 id="modalName"></h2>
+      <p id="modalDesc"></p>
+      <button id="addToFav">Добавить в избранное</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>© Ваш бренд — прототип каталога</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
