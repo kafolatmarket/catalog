@@ -1,9 +1,9 @@
 const products = [
   {
     id: 1,
-    name: "ПЭТ бутылка 0.5 л",
+    name: "ПЭТ бутылка стеклоочиститель 0.5 л ",
     desc: "Прозрачная пластиковая бутылка для напитков, объём 0.5 литра",
-    img: "https://images.unsplash.com/photo-1611078489935-ec60a69e1a37?w=600",
+    img: "images/pet-05l.jpg",
     category: "ПЭТ тара"
   },
   {
@@ -152,4 +152,5 @@ document.getElementById("showFavorites").onclick = () => {
 };
 
 renderProducts(products);
+
 
