@@ -71,8 +71,8 @@ const products = [
   },
 {
     id: 11,
-    name: "Секс игрушка",
-    desc: "Секс игрушка",
+    name: "",
+    desc: "",
     img: "https://images.unsplash.com/photo-1622396481634-6f94c90b4d52?w=600",
     category: "Аксессуары"
   }
@@ -152,3 +152,4 @@ document.getElementById("showFavorites").onclick = () => {
 };
 
 renderProducts(products);
+
